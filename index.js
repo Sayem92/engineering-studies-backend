@@ -74,7 +74,7 @@ async function run() {
       .db("EngineeringStudies")
       .collection("EEE8thSemester");
     
-    // blog collection
+    // blog collection ➡️➡️➡️➡️➡️➡️➡️
     const blogCollection = client
       .db("EngineeringStudies")
       .collection("allBlog");
@@ -193,6 +193,8 @@ async function run() {
         res.send(result);
       }
     });
+    
+
     
     // all blog route  ➡️➡️➡️➡️➡️➡️➡️
     app.get("/blog", async (req, res) => {
